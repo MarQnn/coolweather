@@ -4,7 +4,7 @@ public class City {
 	
 	private int id;
 	
-	private String cirName;
+	private String cityName;
 	
 	private String cityCode;
 	
@@ -18,12 +18,12 @@ public class City {
 		this.id = id;
 	}
 
-	public String getCirName() {
-		return cirName;
+	public String getCityName() {
+		return cityName;
 	}
 
-	public void setCirName(String cirName) {
-		this.cirName = cirName;
+	public void setCityName(String cityName) {
+		this.cityName = cityName;
 	}
 
 	public String getCityCode() {
